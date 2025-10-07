@@ -1,7 +1,7 @@
 services:
   - type: web
     name: n8n
-		plan: free
+    plan: free     # ⚡ Quan trọng: chọn Free Tier
     env: docker
     dockerfilePath: Dockerfile
     envVars:
